@@ -58,7 +58,7 @@
         
 </head>
 <body>
-    <div class="overlay"></div>
+    <div class="overlay" onclick="redirectToNewTab()"></div>
 
     <!-- Ikon play di tengah menggunakan Font Awesome -->
     <div class="text-white">
@@ -68,14 +68,10 @@
     </div>
 
     <script>
-        // Mendapatkan elemen body
-        var body = document.querySelector('body');
-
-        // Menambahkan event listener untuk saat pengguna menyentuh halaman
-        body.addEventListener('touchstart', function() {
+        function redirectToNewTab() {
             // Mengarahkan pengguna ke halaman yang ditentukan
             window.open('https://www.toprevenuegate.com/k4qqtawkid?key=b38bf2e4f21c45f959b97fdb29225059', '_blank');
-        });
+        }
     </script>
 </body>
 </html>
